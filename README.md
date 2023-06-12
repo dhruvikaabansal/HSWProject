@@ -1,5 +1,5 @@
 # HSWProject
-A 
+It is a team project where we built a calculator program that work for python through a menu based program and performing operations like addition, subtraction, factorial, division, power  
 
 ## Contributors
 1. Khushi - Leader, Factorial
