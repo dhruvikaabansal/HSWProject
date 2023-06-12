@@ -4,7 +4,7 @@ import Subtraction
 import Multiplication
 import Division
 import Factorial
-import power
+import Power
 
 # This is to present a menu to the user
 print("Select operation.")
@@ -38,7 +38,10 @@ while True:
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
         elif choice == '4':
-                print(num1, "/", num2, "=", Division.divide(num1, num2))
+            print(num1, "/", num2, "=", Division.divide(num1, num2))
+
+        elif choice == '6':
+            print(num1, "^", num2, "=", Power.power(num1, num2))
             
 
         next_calculation = input("Let's do next calculation? (yes/no): ")
